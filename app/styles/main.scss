@@ -2,8 +2,91 @@ $icon-font-path: '../fonts/';
 // bower:scss
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
-@import "partials/_common";
-@import "partials/_helpers";
-@import "partials/_print";
-@import "partials/_fonts";
-@import "partials/_mixins";
+@import "partials/common";
+@import "partials/colors";
+@import "partials/helpers";
+@import "partials/print";
+@import "partials/fonts";
+@import "partials/mixins";
+.header {
+  .light-1, .light-2 {
+    position: absolute;
+    top: 0;
+  }
+  .light-1 {
+    left: -70px;
+  }
+  .light-2 {
+    right: 250px;
+  }
+  .title-wrap {
+    margin-left: 60px;
+    margin-top: 150px;
+  }
+  .slider-wrap {
+    width: auto;
+    height: auto;
+    //@include shadow-top-bottom(0, 7px, 25px);
+  }
+  &-title {
+    text-align: left;
+    font-family: 'CyrillicOld', sans-serif;
+    font-size: 3.3rem;
+    text-transform: uppercase;
+    color: $header-text-color;
+    text-shadow: 0 5px 2px rgba(0,0,0,.5);
+    line-height: 4.5rem;
+  }
+  position:relative;
+  width: 100%;
+  height: 610px;
+  padding: 1px;
+  z-index: 1;
+  background: url("../images/bg_top.png") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  .logo {
+    margin: 3px 0 5px 100px;
+    width: 196px;
+    height: 166px;
+    //background-image: url("../images/logo_c.png");
+  }
+  .slider-header {
+    outline: 1px solid whitesmoke;
+    width: 100%;
+    height: auto;
+  }
+  .nav {
+    margin-top: 60px;
+    &-list {
+      list-style: none;
+      li {
+        float: left;
+        width: 16%;
+        &:nth-child(4) {
+          width: 33%;
+        }
+        text-align: center;
+        font-family: 'CyrillicOld', sans-serif;
+        font-size: 3rem;
+        text-transform: uppercase;
+        text-shadow: 0 5px 2px rgba(0,0,0,.5);
+        a {
+          color: $header-text-color;
+          &:hover {
+            color: lighten($header-text-color, 25%);
+          }
+        }
+      }
+    }
+  }
+}
+.main {
+  z-index: 0;
+  position:relative;
+  width: 100%;
+  background: url("../images/bg_mid.png") #fff no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 1245px;
+}

@@ -9,9 +9,9 @@ html {
   min-height: 100%;
 }
 body {
-  font-family: 'Roboto', Verdana, sans-serif;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-family: Verdana, sans-serif;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,11 +26,8 @@ body {
 }
 a {
   text-decoration: none;
-  &:hover {
+  &:hover, &:focus {
     text-decoration: none;  
-  }
-  &:focus {
-    text-decoration: none;
   }
 }
 hr {
