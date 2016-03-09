@@ -1,0 +1,54 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: 'Roboto', Verdana, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;  
+  }
+  &:focus {
+    text-decoration: none;
+  }
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #984607;
+  margin: 1em auto;
+  padding: 0;
+}
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}

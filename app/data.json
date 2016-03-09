@@ -1,0 +1,9 @@
+{
+  "items": [{
+    "id": "id-one",
+    "content": "Lorem Ipsum 1"
+  }, {
+    "id": "id-two",
+    "content": "Lorem Ipsum 2"
+  }]
+}
