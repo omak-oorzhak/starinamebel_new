@@ -13,7 +13,7 @@ $icon-font-path: '../fonts/';
   width: 100%;
   height: 610px;
   padding: 1px;
-  z-index: 2;
+  z-index: 3;
   background: url("../images/bg_top.png") no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -80,7 +80,7 @@ $icon-font-path: '../fonts/';
   position: relative;
   background: transparent;
   top: -35px;
-  z-index: 1;
+  z-index: 2;
   width: 35%;
   height: 35px;
   margin: 0 auto;
@@ -90,7 +90,7 @@ $icon-font-path: '../fonts/';
 }
 //ГЛАВНЫЙ КОНТЕНТ
 .main {
-  z-index: 0;
+  z-index: 1;
   position:relative;
   top: -35px;
   width: 100%;
@@ -119,23 +119,86 @@ $icon-font-path: '../fonts/';
   }
   //СХЕМА РАБОТЫ
   .scheme-wrap {
+    position: relative;
+    z-index: 1;
+    outline: 1px dashed darkblue;
+    background: url("../images/scheme_bg.png") no-repeat center;
     .scheme {
       position: relative;
       padding: 1px;
       width: auto;
-      height: auto;
+      height: 524px;
       margin: 0 auto;
       //ЗАГОЛОВОК
       &-title {
         position: absolute;
-        top: 45px;
-        left: 39%;
+        top: 31px;
+        left: 40%;
         //right: 18%;
         text-align: center;
         font-family: 'Sunday', Verdana, sans-serif;
         font-size: 3rem;
         color: #823813;
         text-transform: uppercase;
+      }
+      &-line-1, &-line-2 {
+        //outline: 1px dashed yellow;
+        position: absolute;
+        z-index: 2;
+        left: 5%;
+      }
+      &-line-1 {
+        top: 9%;
+      }
+      &-line-2 {
+        bottom: 13%;
+      }
+      &-captions-1, &-captions-2 {
+        position: absolute;
+        z-index: 1;
+        width: 95%;
+        list-style: none;
+        li {
+          display: inline-block;
+          text-align: center;
+          width: 21%;
+          font-family: 'Sunday', Verdana, sans-serif;
+          font-size: 1.8rem;
+          font-weight: bold;
+          line-height: 2.3rem;
+          text-transform: uppercase;
+        }
+      }
+      &-captions-1 {
+        //outline: 1px dotted #ccc;
+        top: 41%;
+        left: 5%;
+        li {
+          &:first-child {
+            margin-left: 1rem;
+            margin-right: 7rem;
+          }
+          &:nth-child(2) {
+            margin-right: 4rem;
+          }
+        }
+      }
+      &-captions-2 {
+        //outline: 1px dotted #ccc;
+        bottom: 6%;
+        left: 6%;
+        li {
+          &:first-child {
+            margin-left: 2.2rem;
+            margin-right: 2rem;
+          }
+          &:nth-child(2) {
+            margin-right: 4.5rem;
+          }
+          &:nth-child(3) {
+            margin-right: 1.5rem;
+          }
+        }
       }
     }
   }
