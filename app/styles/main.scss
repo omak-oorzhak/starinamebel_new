@@ -94,7 +94,7 @@ $icon-font-path: '../fonts/';
   position:relative;
   top: -35px;
   width: 100%;
-  height: 3460px;
+  height: 2500px; //3460px;
   background: linear-gradient(180deg, #b59b8b, #fff, #b59b8b);
   -webkit-background-size: cover;
   background-size: cover;
@@ -138,13 +138,12 @@ $icon-font-path: '../fonts/';
   .scheme-wrap {
     position: relative;
     z-index: 1;
-    //outline: 1px dashed darkblue;
-    background: url("../images/scheme_bg.png") no-repeat center;
+    //background: url("../images/wooden_plank.png") no-repeat center;
     .scheme {
       position: relative;
       padding: 1px;
       width: auto;
-      height: 524px;
+      height: auto;
       margin: 0 auto;
       //ЗАГОЛОВОК
       &-title {
@@ -226,46 +225,6 @@ $icon-font-path: '../fonts/';
   .benefits-2 {
     //outline: 1px dashed red;
     .benefit-2 {
-      /*width: 16%;
-      height: auto;
-      display: inline-block;
-      position: relative;
-      margin-right: 11rem;
-      &:first-child {
-        margin-left: 4rem;
-        span {
-          left: 1.3rem;
-        }
-      }
-      &:nth-child(2) {
-        span {
-          left: .1rem;
-        }
-      }
-      &:nth-child(3) {
-        span {
-          left: 5.2rem;
-        }
-      }
-      &:last-child {
-        margin-right: 0;
-        span {
-          left: 6.4rem;
-        }
-      }
-      img {
-        float: right;
-      }
-      span {
-        position: absolute;
-        bottom: .8rem;
-        font-family: 'Sunday', Verdana, sans-serif;
-        font-size: 1.7rem;
-        font-weight: bold;
-        color: #6a6561;
-        text-transform: uppercase;
-        text-shadow: 0 0 5px #fff;
-      }*/
       position: relative;
       display: inline-block;
       width: 22%;
@@ -298,6 +257,99 @@ $icon-font-path: '../fonts/';
         @include transformScale(1.2);
       }
       @include transitionTransform(.3s);
+    }
+  }
+  //FAQ
+  .faq-wrap {
+    position: relative;
+    //outline: 1px dashed darkblue;
+    .faq-title {
+      text-align: center;
+      font-family: 'CyrillicOld', sans-serif;
+      color: #5e361f;
+      font-weight: bold;
+      font-size: 5.5rem;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+    .faq-box {
+      position: absolute;
+      top: 10rem;
+      width: 75%;
+      height: auto;
+      left: 14%;
+      padding: 1rem;
+      font-family: 'CyrillicOld', sans-serif;
+      font-size: 2rem;
+      line-height: 2rem;
+      border-right: 2px solid rgba(255,255,255,.3);
+      border-bottom: 2px solid rgba(255,255,255,.3);
+      //border-bottom: 1px solid rgba(255,255,255,.2);
+      background-color: transparent;
+      @include box-shadow(0 0 27px rgba(82,76,73,.38), inset 5px 2px 10px rgba(0,0,0,.73));
+    }
+  }
+  .feedback {
+    position: relative;
+    &-title {
+      text-align: center;
+      font-family: 'CyrillicOld', 'Sunday', sans-serif;
+      color: #5e361f;
+      font-weight: bold;
+      font-size: 5.5rem;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+    .form-wrap {
+      position: absolute;
+      width: 80%;
+      left: 9%;
+      top: 12rem;
+      //outline: 1px dashed blue;
+      label {
+        font-family: 'Sunday', 'CyrillicOld', sans-serif;
+        font-size: 1.3rem;
+        color: #fff;
+        span {
+          color: red;
+        }
+      }
+      input[type="text"] {
+        width: 601px;
+        height: 3rem;
+        margin: 1.2rem 0;
+        padding-left: 1.5rem;
+        border: 1px solid rgba(0,0,0,.06);
+        background-color: transparentize(#a87c54, .65);
+        border-radius: 5px;
+        @include box-shadow(0 0 27px rgba(82,76,73,.38), inset 5px 2px 10px rgba(0,0,0,.73));
+        font-family: 'Sunday', 'CyrillicOld', sans-serif;
+        font-size: 1.3rem;
+      }
+      input[type="submit"] {
+        position: relative;
+        left: 85%;
+        width: 122px;
+        height: 33px;
+        @include box-shadow(0 1px 0 #212121);
+        border-radius: 5px;
+        background-image: linear-gradient(bottom, #787879 -25%, #acadae 125%);
+        font-family: 'Sunday', 'CyrillicOld', sans-serif;
+        font-size: 1.3rem;
+        color: #fff;
+      }
+      textarea {
+        width: 917px;
+        height: 212px;
+        margin: 1.2rem 0;
+        border: 1px solid rgba(0,0,0,.06);
+        border-radius: 5px;
+        background-color: transparentize(#a87c54, .65);
+        @include box-shadow(0 0 27px rgba(82,76,73,.38), inset 5px 2px 10px rgba(0,0,0,.73));
+        font-family: 'Sunday', 'CyrillicOld', sans-serif;
+        font-size: 1.3rem;
+        padding: 1.5rem;
+      }
     }
   }
 }
