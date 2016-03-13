@@ -4,9 +4,18 @@ import browserSync from 'browser-sync';
 import del from 'del';
 import {stream as wiredep} from 'wiredep';
 import data from 'gulp-data';
+import spritesmith from 'gulp.spritesmith';
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
+
+gulp.task('sprite', () => {
+  var spriteData = gulp.src('app/images/sprites/icons/*.png').pipe(spritesmith({
+    imgName: 'sprite.png',
+    cssName: 'sprite.css'
+  }));
+  return spriteData.pipe(gulp.dest('app/images/sprites'));
+});
 
 gulp.task('views', () => {
   return gulp.src('app/pages/**/*.njk')
