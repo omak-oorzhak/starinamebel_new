@@ -34,3 +34,18 @@
     }
   }
 }
+@mixin navList() {
+  padding-top: 60px;
+  &-list { //ul
+    list-style: none;
+    li {
+      float: left;
+      text-align: center;
+      width: 20%;
+      /*&:nth-child(4) {
+        width: 28%;
+      }*/
+      @include navText(2.7rem);
+    }
+  }
+}

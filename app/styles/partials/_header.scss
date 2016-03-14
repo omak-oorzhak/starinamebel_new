@@ -1,0 +1,59 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  //outline: 1px solid green;
+  padding: 1px;
+  z-index: 3;
+  //background: #777;
+  background: url("../../images/bg_top.png") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 33%;
+    background: transparent;
+    display: block;
+    width: 33%;
+    height: 10px;
+    margin: 0 auto;
+    border-radius: 50%;
+    //box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.6);
+    //box-shadow: 0 3px 10px 3px rgba(0, 0, 0, .6),0 1px 1px rgba(0, 0, 0, .01),0 1px 1px rgba(0, 0, 0, .01), 0px 0px 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .5),
+    0 0 0 0 rgba(0, 0, 0, .01),
+    0 0 0 0 rgba(0, 0, 0, .01),
+    inset 0 0 0 rgba(0, 0, 0, .01);
+  }
+  .light-1, .light-2 {
+    position: absolute;
+    top: 0;
+  }
+  .light-1 {
+    left: -70px;
+  }
+  .light-2 {
+    right: 250px;
+  }
+  .title-wrap {
+    margin-top: 7rem;
+  }
+  &-title {
+    @include navText(3rem);
+    color: $header-text-color;
+    line-height: 4.5rem;
+  }
+  .logo {
+    margin-top: 3px;
+    width: 196px;
+    height: 166px;
+  }
+  .slider-wrap {
+    //outline: 1px solid whitesmoke;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+}

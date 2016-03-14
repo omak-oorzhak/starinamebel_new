@@ -9,77 +9,15 @@ $icon-font-path: '../fonts/';
 @import "partials/fonts";
 @import "partials/mixins";
 @import "partials/sprite";
-.header {
-  position: relative;
-  width: 100%;
-  height: 610px;
-  padding: 1px;
-  z-index: 3;
-  background: url("../images/bg_top.png") no-repeat;
+.brown {
+  background: url("../images/bg_top.png") no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;
-  &:after {
-    content: '';
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-    left: 33%;
-    background: transparent;
-    display: block;
-    width: 33%;
-    height: 10px;
-    margin: 0 auto;
-    border-radius: 50%;
-    //box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.6);
-    //box-shadow: 0 3px 10px 3px rgba(0, 0, 0, .6),0 1px 1px rgba(0, 0, 0, .01),0 1px 1px rgba(0, 0, 0, .01), 0px 0px 0 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 8px 10px rgba(0, 0, 0, .5),
-    0 0 0 0 rgba(0, 0, 0, .01),
-    0 0 0 0 rgba(0, 0, 0, .01),
-    inset 0 0 0 rgba(0, 0, 0, .01);
-  }
-  .light-1, .light-2 {
-    position: absolute;
-    top: 0;
-  }
-  .light-1 {
-    left: -70px;
-  }
-  .light-2 {
-    right: 250px;
-  }
-  .title-wrap {
-    margin-top: 7rem;
-  }
-  &-title {
-    @include navText(3rem);
-    color: $header-text-color;
-    line-height: 4.5rem;
-  }
-  .logo {
-    margin-top: 3px;
-    width: 196px;
-    height: 166px;
-  }
-  .slider-header {
-    outline: 1px solid whitesmoke;
-    width: 100%;
-    height: auto;
-  }
-  .nav {
-    margin-top: 60px;
-    &-list { //ul
-      list-style: none;
-      li {
-        float: left;
-        text-align: center;
-        width: 18%;
-        &:nth-child(4) {
-          width: 28%;
-        }
-        @include navText(2.7rem);
-      }
-    }
-  }
+}
+//ШАПКА
+@import "partials/header";
+.nav {
+  @include navList();
 }
 //БЛОК ТЕНИ
 .shadow-box {
@@ -97,10 +35,9 @@ $icon-font-path: '../fonts/';
 .main {
   z-index: 1;
   position:relative;
-  //top: -35px;
   width: 100%;
   height: 2500px; //3460px;
-  background: linear-gradient(180deg, #b59b8b, #fff, #b59b8b);
+  background: linear-gradient(to top, #b59b8b, #fff, #b59b8b);
   -webkit-background-size: cover;
   background-size: cover;
   //ВЫГОДЫ-1
@@ -279,19 +216,44 @@ $icon-font-path: '../fonts/';
     }
     .faq-box {
       position: absolute;
-      top: 10rem;
+      top: 9.5rem;
       width: 75%;
       height: auto;
       left: 14%;
-      padding: 1rem;
-      font-family: 'CyrillicOld', sans-serif;
-      font-size: 2rem;
-      line-height: 2rem;
+      padding: 3.5rem 3rem;
       border-right: 2px solid rgba(255,255,255,.3);
       border-bottom: 2px solid rgba(255,255,255,.3);
       //border-bottom: 1px solid rgba(255,255,255,.2);
       background-color: transparent;
       @include box-shadow(0 0 27px rgba(82,76,73,.38), inset 5px 2px 10px rgba(0,0,0,.73));
+    }
+    .faq-text {
+      font-family: 'CyrillicOld', sans-serif;
+      font-weight: bold;
+      h3 {
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        margin-bottom: 1.2rem;
+        font-weight: bold;
+      }
+      p {
+        text-indent: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+      }
+      a {
+        color: #000;
+        display: inline-block;
+        float: right;
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        margin: 0;
+        font-weight: bold;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
   .feedback {
@@ -357,6 +319,31 @@ $icon-font-path: '../fonts/';
         padding: 1.5rem;
       }
     }
+  }
+}
+.gallery {
+  padding-bottom: 10px;
+  &-item {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 31px;
+    border-radius: 5px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      border-radius: 5px;
+      box-shadow: 0 0 10px 5px rgb(84, 55, 37),inset 0 0 5px rgba(255,255,255,.6);
+    }
+    -webkit-transition: box-shadow .2s;
+    -moz-transition: box-shadow .2s;
+    -o-transition: box-shadow .2s;
+    transition: box-shadow .2s;
+  }
+  &-caption {
+    text-align: center;
+    @include font();
+    font-size: 1em;
   }
 }
 .footer {

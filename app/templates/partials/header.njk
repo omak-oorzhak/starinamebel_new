@@ -1,61 +1,46 @@
 <header class="header">
-    <div class="container">
-        <img class="light-1" src="images/light.png" alt="light">
-        <img class="light-2" src="images/light.png" alt="light">
-        <div class="row">
-            <div class="col-lg-2">
-                <div class="logo">
-                    <a href="/"><img src="images/logo.png" alt="logo-img"></a>
+        <div class="container">
+            <img class="light-1" src="images/light.png" alt="light">
+            <img class="light-2" src="images/light.png" alt="light">
+            {% block nav %}
+                {% include "templates/partials/nav.njk" %}
+            {% endblock %}
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="title-wrap">
+                        <p class="header-title">
+                            Мебель из состаренного <br>дерева от производителя <br> г.Красноярск
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-10">
-                <nav class="nav">
-                    <ul class="nav-list clearfix">
-                        <li><a href="/">Главная</a></li>
-                        <li><a href="#">Галерея</a></li>
-                        <li><a href="#">Работы</a></li>
-                        <li><a href="#">Частые вопросы</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="title-wrap">
-                    <p class="header-title">
-                        Мебель из состаренного <br>дерева от производителя <br> г.Красноярск
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="slider-wrap">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img class="img-responsive" src="../../images/slider_header/1.jpg" alt="img">
+                <div class="col-lg-7">
+                    <div class="slider-wrap">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img class="img-responsive" src="../../images/slider_header/1.jpg" alt="img">
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="../../images/slider_header/2.jpg" alt="img">
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="../../images/slider_header/3.jpg" alt="img">
+                                </div>
                             </div>
-                            <div class="item">
-                                <img class="img-responsive" src="../../images/slider_header/2.jpg" alt="img">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive" src="../../images/slider_header/3.jpg" alt="img">
-                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            </a>
                         </div>
-                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </header>
