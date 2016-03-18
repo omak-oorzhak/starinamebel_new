@@ -3,18 +3,19 @@
     {% include "templates/partials/header.njk" %}
 {% endblock %}
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <section class="gallery">
+    <div class="brown"></div>
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
                     {% for icon in firstRow %}
                         <div class="gallery-item">
                             <a href="{{ icon.href }}"><img src="{{ icon.src }}" alt="{{ icon.alt }}"></a>
                             <p class="gallery-caption">{{ icon.caption }}</p>
                         </div>
                     {% endfor %}
-                </section>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 {% endblock %}

@@ -9,15 +9,33 @@ $icon-font-path: '../fonts/';
 @import "partials/fonts";
 @import "partials/mixins";
 @import "partials/sprite";
+@import "partials/header";
 .brown {
+  position: absolute;
+  height: 171px;
+  width: 100%;
+  background: url("../images/bg_header.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.box {
+  //outline: 3px solid black;
   background: url("../images/bg_top.png") no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;
 }
-//ШАПКА
-@import "partials/header";
-.nav {
-  @include navList();
+.header-title {
+  @include navText(3rem);
+  color: $header-text-color;
+  line-height: 4.5rem;
+  padding-top: 171px;
+}
+.slider-wrap {
+  //outline: 1px solid whitesmoke;
+  padding-top: 171px;
+  height: auto;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 //БЛОК ТЕНИ
 .shadow-box {
@@ -326,7 +344,13 @@ $icon-font-path: '../fonts/';
   }
 }
 .gallery {
+  padding-top: 178px;
   padding-bottom: 10px;
+  width: 100%;
+  height: 1000px;
+  background: linear-gradient(to top, #b59b8b, #fff, #b59b8b);
+  -webkit-background-size: cover;
+  background-size: cover;
   &-item {
     display: inline-block;
     cursor: pointer;
