@@ -28,6 +28,7 @@
                     </div>
                 </div>
             </section>
+            <img class="sep-gray" src="../images/sep_gray.png" alt="separator">
             <section class="scheme-wrap">
                 <div class="row">
                     <div class="col-lg-12">
@@ -75,7 +76,6 @@
                     </div>
                 </div>
             </section>
-            <img class="sep-gray" src="../images/sep_gray.png" alt="separator">
             <section class="faq-wrap">
                 <div class="row">
                     <div class="col-lg-12">
@@ -108,13 +108,13 @@
                     <div class="col-lg-12">
                         <h2 class="feedback-title">связаться с нами</h2>
                         <div class="form-wrap">
-                            <form action="#">
+                            <form method="post" action="mail.php" id="ajaxform">
                                 <label for="name">ваше имя <span>(обязательно)</span> :</label><br>
-                                <input class="form-field" id="name" required type="text"><br>
+                                <input class="form-field" id="name" name="name" required type="text" placeholder="Вaшe имя" value=""><br>
                                 <label for="phone">ваш e-mail или номер телефона <span>(обязательно)</span> :</label><br>
-                                <input class="form-field" id="phone" required type="text"><br>
+                                <input class="form-field" id="phone" name="email" required type="text" placeholder="Вaш email" value=""><br>
                                 <label for="textarea">сообщение:</label><br>
-                                <textarea name="feedback-text" id="textarea" cols="30" rows="10"></textarea>
+                                <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Сooбщeниe.." value=""></textarea>
                                 <input type="submit">
                             </form>
                         </div>

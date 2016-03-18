@@ -80,6 +80,7 @@ $icon-font-path: '../fonts/';
   .scheme-wrap {
     position: relative;
     z-index: 1;
+    margin-bottom: 2rem;
     //background: url("../images/wooden_plank.png") no-repeat center;
     .scheme {
       position: relative;
@@ -161,10 +162,12 @@ $icon-font-path: '../fonts/';
     }
   }
   .sep-gray {
-    margin: 3rem auto;
+    width: 100%;
+    margin: 0 auto 3rem;
   }
   //ВЫГОДЫ-2
   .benefits-2 {
+    margin-bottom: 4rem;
     //outline: 1px dashed red;
     .benefit-2 {
       position: relative;
@@ -204,6 +207,7 @@ $icon-font-path: '../fonts/';
   //FAQ
   .faq-wrap {
     position: relative;
+    margin-bottom: 3rem;
     //outline: 1px dashed darkblue;
     .faq-title {
       text-align: center;
@@ -291,7 +295,7 @@ $icon-font-path: '../fonts/';
         background-color: transparentize(#a87c54, .65);
         border-radius: 5px;
         @include box-shadow(0 0 27px rgba(82,76,73,.38), inset 5px 2px 10px rgba(0,0,0,.73));
-        font-family: 'Sunday', 'CyrillicOld', sans-serif;
+        font-family: 'Times New Roman',  sans-serif;
         font-size: 1.3rem;
       }
       input[type="submit"] {
@@ -314,7 +318,7 @@ $icon-font-path: '../fonts/';
         border-radius: 5px;
         background-color: transparentize(#a87c54, .65);
         @include box-shadow(0 0 27px rgba(82,76,73,.38), inset 5px 2px 10px rgba(0,0,0,.73));
-        font-family: 'Sunday', 'CyrillicOld', sans-serif;
+        font-family: 'Times New Roman', sans-serif;
         font-size: 1.3rem;
         padding: 1.5rem;
       }
@@ -378,7 +382,7 @@ $icon-font-path: '../fonts/';
   }
   .social {
     display: inline-block;
-    padding-left: 22.5rem;
+    padding-left: 9.5rem;
     &-link {
       margin-right: .5rem;
     }
