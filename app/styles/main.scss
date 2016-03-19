@@ -111,15 +111,13 @@ $icon-font-path: '../fonts/';
         position: absolute;
         top: 31px;
         left: 40%;
-        //right: 18%;
         text-align: center;
         font-family: 'Sunday', Verdana, sans-serif;
         font-size: 3rem;
-        color: #823813;
+        color: #000; //#823813
         text-transform: uppercase;
       }
       &-line-1, &-line-2 {
-        //outline: 1px dashed yellow;
         position: absolute;
         z-index: 2;
         left: 5%;
@@ -232,7 +230,7 @@ $icon-font-path: '../fonts/';
       font-family: 'CyrillicOld', sans-serif;
       color: #5e361f;
       font-weight: bold;
-      font-size: 5.5rem;
+      font-size: 5rem;
       text-transform: uppercase;
       margin-bottom: 2rem;
     }
@@ -285,7 +283,7 @@ $icon-font-path: '../fonts/';
       font-family: 'CyrillicOld', 'Sunday', sans-serif;
       color: #5e361f;
       font-weight: bold;
-      font-size: 5.5rem;
+      font-size: 5rem;
       text-transform: uppercase;
       margin-bottom: 2rem;
     }
