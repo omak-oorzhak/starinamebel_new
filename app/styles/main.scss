@@ -344,8 +344,8 @@ $icon-font-path: '../fonts/';
   }
 }
 .gallery {
-  padding-top: 178px;
-  padding-bottom: 10px;
+  padding-top: 180px;
+  padding-bottom: 15px;
   width: 100%;
   height: auto;
   background: linear-gradient(to top, #b59b8b, #fff, #b59b8b);
@@ -373,6 +373,28 @@ $icon-font-path: '../fonts/';
     text-align: center;
     @include font();
     font-size: 1em;
+  }
+}
+.images-wrap {
+  min-height: 620px;
+  //height: auto;
+  padding-top: 180px;
+  padding-bottom: 15px;
+  background: transparent;
+  background: linear-gradient(to top, #b59b8b, #fff, #b59b8b);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.images {
+  padding: 8px 0;
+  .thumb {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-right: 11px;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
 .footer {

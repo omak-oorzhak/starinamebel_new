@@ -1,0 +1,77 @@
+{% extends "templates/default.njk" %}
+{% block header %}
+    {% include "templates/partials/header.njk" %}
+{% endblock %}
+{% block content %}
+    <div class="brown"></div>
+    <section class="images-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="images">
+                        {% for thumb in cabinets_1 %}
+                            <div class="thumb">
+                                <a href="{{ thumb.href }}" data-rel="lightcase:myCollection"><img src="{{ thumb.src }}" alt="{{ thumb.alt }}"></a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="images">
+                        {% for thumb in cabinets_2 %}
+                            <div class="thumb">
+                                <a href="{{ thumb.href }}" data-rel="lightcase:myCollection"><img src="{{ thumb.src }}" alt="{{ thumb.alt }}"></a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="images">
+                        {% for thumb in cabinets_3 %}
+                            <div class="thumb">
+                                <a href="{{ thumb.href }}" data-rel="lightcase:myCollection"><img src="{{ thumb.src }}" alt="{{ thumb.alt }}"></a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="images">
+                        {% for thumb in cabinets_4 %}
+                            <div class="thumb">
+                                <a href="{{ thumb.href }}" data-rel="lightcase:myCollection"><img src="{{ thumb.src }}" alt="{{ thumb.alt }}"></a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="images">
+                        {% for thumb in cabinets_5 %}
+                            <div class="thumb">
+                                <a href="{{ thumb.href }}" data-rel="lightcase:myCollection"><img src="{{ thumb.src }}" alt="{{ thumb.alt }}"></a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="images">
+                        {% for thumb in cabinets_6 %}
+                            <div class="thumb">
+                                <a href="{{ thumb.href }}" data-rel="lightcase:myCollection"><img src="{{ thumb.src }}" alt="{{ thumb.alt }}"></a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
