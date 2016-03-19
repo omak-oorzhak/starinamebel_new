@@ -347,13 +347,14 @@ $icon-font-path: '../fonts/';
   padding-top: 178px;
   padding-bottom: 10px;
   width: 100%;
-  height: 1000px;
+  height: auto;
   background: linear-gradient(to top, #b59b8b, #fff, #b59b8b);
   -webkit-background-size: cover;
   background-size: cover;
   &-item {
     display: inline-block;
     cursor: pointer;
+    padding: 5px 0;
     margin-right: 31px;
     border-radius: 5px;
     &:last-child {
