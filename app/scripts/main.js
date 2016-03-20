@@ -5,10 +5,10 @@ $(document).ready(function($) {
         disableShrink: true
     });
     $(function(){
-        $("#back-top").hide();
+        // $("#back-top").hide();
         $(window).scroll(function () {
             if ($(this).scrollTop() > 700) {
-                $("#back-top").fadeIn(200);
+                $("#back-top").removeClass("hidden").fadeIn(200);
             } else {
                 $("#back-top").fadeOut(200);
             }

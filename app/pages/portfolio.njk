@@ -1,0 +1,33 @@
+{% extends "templates/default.njk" %}
+{% block header %}
+    {% include "templates/partials/header.njk" %}
+{% endblock %}
+{% block content %}
+    <div class="brown"></div>
+    <section class="portfolio-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio-link">
+                        <a href="cottage.html">
+                            <img src="../images/cottage.png" alt="cottage">
+                            <p class="portfolio-caption">загородный дом<br><br></p>
+                        </a>
+                    </div>
+                    <div class="portfolio-link">
+                        <a href="#">
+                            <img src="../images/tatyshev.png" width="327" height="119" alt="tatyshev">
+                            <p class="portfolio-caption">"татышев парк"<br><br></p>
+                        </a>
+                    </div>
+                    <div class="portfolio-link">
+                        <a href="#">
+                            <img src="../images/roev.png" alt="roev">
+                            <p class="portfolio-caption">парк флоры и фауны<br>"роев ручей"</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

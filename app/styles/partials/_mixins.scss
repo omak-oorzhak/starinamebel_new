@@ -8,6 +8,15 @@
   text-transform: uppercase;
   text-shadow: 0 0 5px #fff;
 }
+@mixin CyrillicOld() {
+  font-family: 'CyrillicOld', sans-serif;
+  font-weight: bold;
+}
+@mixin gradient() {
+  background: linear-gradient(to top, #b59b8b, #fff, #b59b8b);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
 @mixin transformScale($param) {
   -webkit-transform: scale($param);
   -moz-transform: scale($param);

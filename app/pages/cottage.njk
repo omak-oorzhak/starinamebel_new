@@ -1,0 +1,101 @@
+{% extends "templates/default.njk" %}
+{% block header %}
+    {% include "templates/partials/header.njk" %}
+{% endblock %}
+{% block content %}
+    <div class="brown"></div>
+    <section class="portfolio-wrap">
+        <div class="portfolio-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="portfolio">
+                            {% for item in portfolio_1 %}
+                                <div class="portfolio-item">
+                                    <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="portfolio">
+                            {% for item in portfolio_2 %}
+                                <div class="portfolio-item">
+                                    <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <section class="portfolio">
+                            {% for item in portfolio_3 %}
+                                <div class="portfolio-item">
+                                    <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
+                                </div>
+                            {% endfor %}
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="portfolio">
+                            {% for item in portfolio_4 %}
+                                <div class="portfolio-item">
+                                    <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="portfolio">
+                            {% for item in portfolio_5 %}
+                                <div class="portfolio-item">
+                                    <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <section class="portfolio">
+                            {% for item in portfolio_6 %}
+                                <div class="portfolio-item">
+                                    <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
+                                </div>
+                            {% endfor %}
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="portfolio">
+                            {% for item in portfolio_7 %}
+                                <div class="portfolio-item">
+                                    <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="portfolio">
+                            {% for item in portfolio_8 %}
+                                <div class="portfolio-item">
+                                    <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
