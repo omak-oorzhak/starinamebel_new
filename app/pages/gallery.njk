@@ -36,6 +36,23 @@
                     {% endfor %}
                 </div>
             </div>
+            <div class="separator">
+                <img class="separator-img" src="../images/sep_gray.png" alt="separator">
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <section class="colors">
+                        <h1 class="colors-title">Цветовая гамма</h1>
+                        <ul class="colors-list">
+                            {% for color in colors %}
+                                <li class="colors-item">
+                                    <img id="{{ color.id }}" src="{{ color.src }}" alt="{{ color.alt }}">
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </section>
+                </div>
+            </div>
         </div>
     </section>
 {% endblock %}

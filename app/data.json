@@ -171,73 +171,87 @@
     {
       "href": "images/gallery/beds/1.jpg",
       "src": "images/gallery/beds/1_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 1
     },
     {
       "href": "images/gallery/beds/2.jpg",
       "src": "images/gallery/beds/2_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 2
     },
     {
       "href": "images/gallery/beds/3.jpg",
       "src": "images/gallery/beds/3_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 3
     },
     {
       "href": "images/gallery/beds/4.jpg",
       "src": "images/gallery/beds/4_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 4
     },
     {
       "href": "images/gallery/beds/5.jpg",
       "src": "images/gallery/beds/5_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 5
     },
     {
       "href": "images/gallery/beds/6.jpg",
       "src": "images/gallery/beds/6_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 6
     },
     {
       "href": "images/gallery/beds/7.jpg",
       "src": "images/gallery/beds/7_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 7
     }
   ],
   "beds_2": [
     {
       "href": "images/gallery/beds/8.jpg",
       "src": "images/gallery/beds/8_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 8
     },
     {
       "href": "images/gallery/beds/9.jpg",
       "src": "images/gallery/beds/9_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 9
     },
     {
       "href": "images/gallery/beds/10.jpg",
       "src": "images/gallery/beds/10_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 10
     },
     {
       "href": "images/gallery/beds/11.jpg",
       "src": "images/gallery/beds/11_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 11
     },
     {"href": "images/gallery/beds/12.jpg",
       "src": "images/gallery/beds/12_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 12
     },
     {
       "href": "images/gallery/beds/13.jpg",
       "src": "images/gallery/beds/13_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 13
     },
     {
       "href": "images/gallery/beds/14.jpg",
       "src": "images/gallery/beds/14_th.jpg",
-      "alt": "thumb"
+      "alt": "thumb",
+      "number": 14
     }
   ],
   "beds_3": [
