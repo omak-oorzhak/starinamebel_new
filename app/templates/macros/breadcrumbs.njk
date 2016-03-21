@@ -1,7 +1,11 @@
-{% macro page(name) %}
+{% macro page(secondHref = 'gallery', secondLink = 'галерея', thirdLink) %}
     <div class="breadcrumbs">
-        <a class="breadcrumbs-link" href="/"><span>главная&nbsp;&gt;&gt;</span></a>
-        <a class="breadcrumbs-link" href="gallery.html"><span>галерея&nbsp;&gt;&gt;</span></a>
-        <span>{{ name | escape }}</span>
+        <a class="breadcrumbs-link" href="/">
+            <span>главная&nbsp;&gt;&gt;</span>
+        </a>
+        <a class="breadcrumbs-link" href="{{ secondHref | escape }}.html">
+            <span>{{ secondLink | escape }}&nbsp;&gt;&gt;</span>
+        </a>
+        <span>{{ thirdLink | escape }}</span>
     </div>
 {% endmacro %}

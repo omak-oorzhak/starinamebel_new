@@ -20,6 +20,7 @@ $icon-font-path: '../fonts/';
   background-size: cover;
 }
 .box {
+  height: 550px;
   background: url("../images/bg_top.png") no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -65,11 +66,14 @@ $icon-font-path: '../fonts/';
 }
 //ГЛАВНЫЙ КОНТЕНТ
 .main {
-  z-index: 1;
-  position:relative;
-  width: 100%;
-  height: auto; //3460px; 2500
   @include gradient();
+  height: 2400px; //3460px; 2500
+  .top-shadow {
+    position: absolute;
+    top: -1px;
+    z-index: 1;
+    text-align: center;
+  }
   //ВЫГОДЫ-1
   .benefits-1 {
     margin: 15px auto;
@@ -201,6 +205,7 @@ $icon-font-path: '../fonts/';
   .sep-gray {
     width: 100%;
     margin: 2rem auto;
+    text-align: center;
   }
   //ВЫГОДЫ-2
   .benefits-2 {
@@ -363,7 +368,7 @@ $icon-font-path: '../fonts/';
   }
 }
 .separator {
-  margin: 2rem 0;
+  margin: 0 0 2rem;
   text-align: center;
 }
 .gallery {
@@ -373,6 +378,10 @@ $icon-font-path: '../fonts/';
   min-height: 620px; //3460px; 2500
   @include gradient();
   padding: 20px 0;
+  &-box {
+    //outline: 1px dashed green;
+    margin-bottom: 2rem;
+  }
   //top: 170px;
   /*width: 100%;
   height: auto;
@@ -455,11 +464,8 @@ $icon-font-path: '../fonts/';
   }
 }
 .answers-wrap {
-  z-index: 1;
-  position:relative;
-  width: 100%;
-  min-height: 620px; //3460px; 2500
   @include gradient();
+  min-height: 620px; //3460px; 2500
   padding: 20px 0;
   .faq-title {
     @include CyrillicOld();
@@ -492,11 +498,8 @@ $icon-font-path: '../fonts/';
   }
 }
 .portfolio-wrap {
-  z-index: 1;
-  position:relative;
-  width: 100%;
-  min-height: 620px; //3460px; 2500
   @include gradient();
+  min-height: 620px; //3460px; 2500
   .portfolio-link{
     display: inline-block;
     padding-top: 100px;
@@ -540,11 +543,8 @@ $icon-font-path: '../fonts/';
   }
 }
 .contacts-wrap {
-  z-index: 1;
-  position:relative;
-  width: 100%;
-  min-height: 620px; //3460px; 2500
   @include gradient();
+  min-height: 620px; //3460px; 2500
   .contacts {
     padding: 1px;
     text-align: center;
