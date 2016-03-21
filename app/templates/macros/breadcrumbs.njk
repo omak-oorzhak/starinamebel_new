@@ -1,0 +1,7 @@
+{% macro page(name) %}
+    <div class="breadcrumbs">
+        <a class="breadcrumbs-link" href="/"><span>главная&nbsp;&gt;&gt;</span></a>
+        <a class="breadcrumbs-link" href="gallery.html"><span>галерея&nbsp;&gt;&gt;</span></a>
+        <span>{{ name | escape }}</span>
+    </div>
+{% endmacro %}

@@ -49,6 +49,20 @@ $icon-font-path: '../fonts/';
   border-radius: 50%;
   //box-shadow: 0 25px 20px -18px rgba(0, 0, 0, .9), 0 0 4px rgba(0, 0, 0, .1) inset;
 }
+.breadcrumbs {
+  padding: 1rem 0;
+  text-align: center;
+  @include Sunday();
+  text-shadow: none;
+  font-size: 1.8rem;
+  &-link {
+    display: inline-block;
+    color: #5E361A;
+    &:hover {
+      color: lighten(#5E361A, 25%);
+    }
+  }
+}
 //ГЛАВНЫЙ КОНТЕНТ
 .main {
   z-index: 1;
@@ -203,13 +217,13 @@ $icon-font-path: '../fonts/';
         width: 100%;
         position: absolute;
         bottom: .8rem;
-        @include font();
+        @include Sunday();
         font-size: 2.3rem;
         color: #6a6561;
       }
       .word-1 {
         position: absolute;
-        @include font();
+        @include Sunday();
         font-size: 2.3rem;
         color: #6a6561;
       }
@@ -387,7 +401,7 @@ $icon-font-path: '../fonts/';
   }
   &-caption {
     text-align: center;
-    @include font();
+    @include Sunday();
     font-size: 1.4em;
   }
 }
@@ -395,7 +409,7 @@ $icon-font-path: '../fonts/';
   padding: 1px;
   text-align: center;
   &-title {
-    @include font();
+    @include Sunday();
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 18px;
@@ -434,7 +448,8 @@ $icon-font-path: '../fonts/';
       margin-right: 0;
     }
     &-caption {
-      @include font();
+      @include Sunday();
+      text-shadow: none;
       font-size: 1.5rem;
     }
   }
@@ -534,7 +549,7 @@ $icon-font-path: '../fonts/';
     padding: 1px;
     text-align: center;
     &-title {
-      @include font();
+      @include Sunday();
       text-align: center;
       margin: 20px auto 40px;
     }
@@ -548,7 +563,7 @@ $icon-font-path: '../fonts/';
     &-caption {
       background: rgba(187,180,180,.4);
       padding: 12px;
-      @include font();
+      @include Sunday();
       font-size: 1.5rem;
       text-align: center;
     }
