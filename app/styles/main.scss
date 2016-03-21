@@ -13,7 +13,7 @@ $icon-font-path: '../fonts/';
 .brown {
   position: relative;
   top: 0;
-  height: 171px;
+  height: 143px;
   width: 100%;
   background: url("../images/bg_header.jpg") no-repeat center;
   -webkit-background-size: cover;
@@ -28,11 +28,11 @@ $icon-font-path: '../fonts/';
   @include navText(3rem);
   color: $header-text-color;
   line-height: 4.5rem;
-  padding-top: 171px;
+  padding-top: 143px;
 }
 .slider-wrap {
   //outline: 1px solid whitesmoke;
-  padding-top: 171px;
+  padding-top: 143px;
   height: auto;
   margin-bottom: 2rem;
   text-align: center;
@@ -58,7 +58,7 @@ $icon-font-path: '../fonts/';
   @include gradient();
   //ВЫГОДЫ-1
   .benefits-1 {
-    margin: 40px auto;
+    margin: 15px auto;
     //outline: 1px dotted gray;
     .benefit-1 {
       position: relative;
