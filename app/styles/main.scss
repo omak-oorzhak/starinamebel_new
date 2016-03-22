@@ -27,16 +27,18 @@ $icon-font-path: '../fonts/';
   /*background: url("../images/bg_top.png") no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;*/
-}
-.header-title {
-  @include navText(3rem);
-  color: $header-text-color;
-  line-height: 4.5rem;
-}
-.slider-wrap {
-  height: auto;
-  margin-bottom: 2rem;
-  text-align: center;
+  .title-wrap {
+    .header-title {
+      @include navText(3rem);
+      color: $header-text-color;
+      line-height: 4.5rem;
+    }
+  }
+  .slider-wrap {
+    height: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
 }
 //БЛОК ТЕНИ
 .shadow-box {
@@ -654,3 +656,5 @@ $icon-font-path: '../fonts/';
     transition: 1s;
   }
 }
+@import "partials/media/header";
+@import "partials/media/box";
