@@ -22,6 +22,12 @@ $(document).ready(function($) {
         });
     });
 });
+//HAMBURGER
+$('.hamburger').on('click', function(e) {
+    $(this).toggleClass('is-active');
+    // If menu is already showing, slide it up. Otherwise, slide it down.
+    $('.nav-list').toggleClass('slide-down');
+});
 $(window).resize(function(){
     if (window.matchMedia('(max-width: 991px)').matches) {
         var i = 1;

@@ -3,8 +3,8 @@
     {% include "templates/partials/header.njk" %}
 {% endblock %}
 {% block content %}
-    <div class="brown"></div>
     <section class="images-wrap">
+        <img class="header-shadow img-responsive" src="images/top_shadow.png" alt="shadow">
         {% import "templates/macros/breadcrumbs.njk" as breadcrumbs %}
         {{ breadcrumbs.page('столы') }}
         <div class="container">
@@ -105,5 +105,6 @@
                 </div>
             </div>
         </div>
+        <img class="bottom-shadow img-responsive" src="images/top_shadow.png" alt="shadow">
     </section>
 {% endblock %}
