@@ -3938,5 +3938,37 @@
       "src": "images/portfolio/cottage/46_th.jpg",
       "alt": "thumb"
     }
+  ],
+  "roev_1": [
+    {
+      "href": "images/portfolio/roev/1.jpg",
+      "src": "images/portfolio/roev/1_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/2.jpg",
+      "src": "images/portfolio/roev/2_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/3.jpg",
+      "src": "images/portfolio/roev/3_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/4.jpg",
+      "src": "images/portfolio/roev/4_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/5.jpg",
+      "src": "images/portfolio/roev/5_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/6.jpg",
+      "src": "images/portfolio/roev/6_th.jpg",
+      "alt": "thumb"
+    }
   ]
 }
