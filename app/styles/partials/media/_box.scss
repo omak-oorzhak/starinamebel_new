@@ -12,12 +12,30 @@
     }
   }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .brown {
+    height: 630px;
+  }
   .box {
-    height: 337px;
+    height: 442px; //337px;
     .title-wrap {
       display: none !important;
       visibility: hidden;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .brown {
+    height: 630px;
+  }
+  .box {
+    height: auto; //337px;
+    .title-wrap {
+      display: none !important;
+      visibility: hidden;
+    }
+    .slider-wrap {
+      margin-bottom: 0;
     }
   }
 }

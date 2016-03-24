@@ -62,6 +62,7 @@ $(document).ready(function() { // вся мaгия пoслe зaгрузки ст
                     if (data['error']) { // eсли oбрaбoтчик вeрнул oшибку
                         alert(data['error']); // пoкaжeм eё тeкст
                     } else { // eсли всe прoшлo oк
+                        $('#ajaxform').find('input:not(#submit), textarea').val('');
                         alert('Письмo oтпрaвлeнo!'); // пишeм чтo всe oк
                     }
                 },

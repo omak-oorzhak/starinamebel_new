@@ -22,11 +22,11 @@
     }
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) { //782
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .header {
     .nav {
       padding: 1rem 0 2rem;
-      &-list { //ul
+      &-list {
         li {
           @include navText(2.4rem);
         }
@@ -36,12 +36,8 @@
       position: absolute;
       top: 0;
     }
-    .light-1 {
-      left: 0;
-    }
-    .light-2 {
-      right: 220px;
-    }
+    .light-1 { left: 0; }
+    .light-2 { right: 220px; }
     .logo {
       display: inline-block;
       margin-top: 1px;
@@ -112,14 +108,7 @@
   .header {
     .nav {
       padding: 1rem 0 2rem;
-      &-list { //ul
-        li {
-          /*text-align: left;
-          margin-right: 0;
-          width: 20%;*/
-          @include navText(1.8rem);
-        }
-      }
+      &-list { li { @include navText(1.8rem); } }
     }
     .hidden-block {
       top: 1rem;
@@ -149,9 +138,7 @@
 }
 /*HAMBURGER*/
 @media only screen and (min-width: 481px){
-  .hamburger {
-    display: none;
-  }
+  .hamburger { display: none; }
 }
 @media only screen and (max-width: 480px) {
   .hamburger {
@@ -160,20 +147,17 @@
   }
   .nav {
     padding-top: 0 !important;
-    li {
-      width: 100% !important;
-    }
+    li { width: 100% !important; }
     &-list {
       height: 0;
       overflow: hidden;
       transition: height 0.3s linear;
       a {
         display: block;
-        padding: 15px;
+        padding: 12px;
+        @include navText(2rem);
       }
     }
   }
-  .slide-down {
-    height: 250px;
-  }
+  .slide-down { height: 200px; }
 }
