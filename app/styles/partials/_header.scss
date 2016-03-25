@@ -14,12 +14,15 @@
   .light-1, .light-2 {
     position: absolute;
     top: 0;
+    display: inline-block;
+    width: 40%;
+    height: auto;
   }
   .light-1 {
     left: 0;
   }
   .light-2 {
-    right: 220px;
+    right: 15%;
   }
   .logo {
     margin-top: 3px;
