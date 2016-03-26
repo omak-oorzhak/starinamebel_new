@@ -29,6 +29,7 @@ $icon-font-path: '../fonts/';
   -webkit-background-size: cover;
   background-size: cover;*/
   .title-wrap {
+    margin-top: 25%;
     .header-title {
       @include navText(3rem);
       color: $header-text-color;
