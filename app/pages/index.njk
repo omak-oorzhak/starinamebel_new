@@ -168,12 +168,14 @@
                         <div class="form-wrap">
                             <form method="post" action="" id="ajaxform">
                                 <label for="name">ваше имя <span>(обязательно)</span> :</label><br>
-                                <input type="text" class="form-field" id="name" name="name" required val=""><br>
-                                <label for="phone">ваш e-mail или номер телефона <span>(обязательно)</span> :</label><br>
-                                <input type="text" class="form-field" id="phone" name="phone" required val=""><br>
+                                <input type="text" class="form-field" id="name" name="name" value=""><span class="alert-empty"></span><br>
+                                <label for="email">ваш e-mail <span>(обязательно)</span> :</label><br>
+                                <input type="text" class="form-field" id="email" name="email" value=""><span class="alert-empty"></span><br>
+                                <label for="phone">ваш телефон <span>(обязательно)</span> :</label><br>
+                                <input type="text" class="form-field" id="phone" name="phone" value=""><span class="alert-empty"></span><br>
                                 <label for="textarea">сообщение:</label><br>
-                                <textarea name="message" id="textarea" cols="30" rows="10" val=""></textarea>
-                                <input type="submit" id="submit">
+                                <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+                                <input type="submit" id="submit" name="submit" value="отправить">
                             </form>
                         </div>
                         <img class="wood" src="../images/wooden_plank.png" alt="scheme-bg">

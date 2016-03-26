@@ -308,7 +308,7 @@ $icon-font-path: '../fonts/';
       position: absolute;
       width: 80%;
       left: 9%;
-      top: 12rem;
+      top: 10rem;
       //outline: 1px dashed blue;
       label {
         font-family: 'Sunday', 'CyrillicOld', sans-serif;
@@ -319,10 +319,10 @@ $icon-font-path: '../fonts/';
           color: red;
         }
       }
-      input[type="text"] {
-        width: 601px;
-        height: 3rem;
-        margin: 1.2rem 0;
+      input[type="text"], input[type="email"], input[type="tel"] {
+        width: 400px;
+        height: 2.6rem;
+        margin: 1rem 0;
         padding-left: 1.5rem;
         border: 1px solid rgba(0,0,0,.06);
         background-color: transparentize(#a87c54, .65);
@@ -333,7 +333,7 @@ $icon-font-path: '../fonts/';
       }
       input[type="submit"] {
         position: relative;
-        left: 85%;
+        left: 50%;
         width: 122px;
         height: 33px;
         @include box-shadow(0 1px 0 #212121);
@@ -345,7 +345,7 @@ $icon-font-path: '../fonts/';
       }
       textarea {
         width: 917px;
-        height: 212px;
+        height: 150px;
         margin: 1.2rem 0 .6rem;
         border: 1px solid rgba(0,0,0,.06);
         border-radius: 5px;
@@ -354,6 +354,13 @@ $icon-font-path: '../fonts/';
         font-family: 'Times New Roman', sans-serif;
         font-size: 2rem;
         padding: 1.5rem;
+      }
+      .alert-empty {
+        font-family: 'Sunday', 'CyrillicOld', sans-serif;
+        font-size: 1.3rem;
+        color: #fff;
+        margin-left: 2rem;
+        text-shadow: 0 1px 0 #000;
       }
     }
   }
