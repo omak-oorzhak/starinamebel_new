@@ -134,13 +134,7 @@ $icon-font-path: '../fonts/';
     //background: url("../images/wooden_plank.png") no-repeat center;
     //ЗАГОЛОВОК
     .scheme-title {
-      text-align: center;
-      font-family: 'CyrillicOld', sans-serif;
-      color: #5e361f;
-      font-weight: bold;
-      font-size: 5rem;
-      text-transform: uppercase;
-      margin-bottom: 2rem;
+      @include titles(4.5rem);
     }
     .scheme {
       position: relative;
@@ -152,6 +146,8 @@ $icon-font-path: '../fonts/';
         position: absolute;
         z-index: 2;
         left: 5%;
+        width: auto;
+        height: auto;
       }
       &-line-1 {
         top: 7%;
@@ -258,13 +254,7 @@ $icon-font-path: '../fonts/';
     margin-bottom: 3rem;
     //outline: 1px dashed darkblue;
     .faq-title {
-      text-align: center;
-      font-family: 'CyrillicOld', sans-serif;
-      color: #5e361f;
-      font-weight: bold;
-      font-size: 5rem;
-      text-transform: uppercase;
-      margin-bottom: 2rem;
+      @include titles(4.5rem);
     }
     .faq-box {
       position: absolute;
@@ -311,13 +301,7 @@ $icon-font-path: '../fonts/';
   .feedback {
     position: relative;
     &-title {
-      text-align: center;
-      font-family: 'CyrillicOld', 'Sunday', sans-serif;
-      color: #5e361f;
-      font-weight: bold;
-      font-size: 5rem;
-      text-transform: uppercase;
-      margin-bottom: 2rem;
+      @include titles(4.5rem);
     }
     .form-wrap {
       position: absolute;
@@ -665,3 +649,4 @@ $icon-font-path: '../fonts/';
 @import "partials/media/header";
 @import "partials/media/box";
 @import "partials/media/benefits";
+@import "partials/media/scheme";

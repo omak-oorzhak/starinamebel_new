@@ -59,3 +59,12 @@
     }
   }
 }
+@mixin titles($fontSize) {
+  text-align: center;
+  font-family: 'CyrillicOld', sans-serif;
+  color: #5e361f;
+  font-weight: bold;
+  font-size: $fontSize;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
