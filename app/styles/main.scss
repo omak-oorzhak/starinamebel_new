@@ -511,8 +511,11 @@ $icon-font-path: '../fonts/';
   min-height: 620px; //3460px; 2500
   .portfolio-link{
     display: inline-block;
+    width: 27%;
+    height: auto;
     padding-top: 100px;
-    margin-right: 9rem;
+    margin-right: 9%;
+    //margin-right: 8.7rem;
     text-align: center;
     img {
       margin-bottom: 3rem;
@@ -545,8 +548,8 @@ $icon-font-path: '../fonts/';
   &-item {
     display: inline-block;
     width: 16%;
-    margin-right: 9px;
-    padding-bottom: 5px;
+    margin-right: 5px;
+    padding-bottom: 3px;
     &:last-child {
       margin-right: 0;
     }

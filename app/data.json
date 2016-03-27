@@ -422,6 +422,12 @@
       "src": "images/gallery/beds/41_th.jpg",
       "alt": "thumb",
       "number": 41
+    },
+    {
+      "href": "images/gallery/beds/42.jpg",
+      "src": "images/gallery/beds/42_th.jpg",
+      "alt": "thumb",
+      "number": 42
     }
   ],
   "benches_1": [
@@ -930,6 +936,12 @@
       "src": "images/gallery/cabinets/41_th.jpg",
       "alt": "thumb",
       "number": 41
+    },
+    {
+      "href": "images/gallery/cabinets/42.jpg",
+      "src": "images/gallery/cabinets/42_th.jpg",
+      "alt": "thumb",
+      "number": 42
     }
   ],
   "chairs_1": [
@@ -1620,6 +1632,12 @@
       "src": "images/gallery/chandeliers/47_th.jpg",
       "alt": "thumb",
       "number": 47 
+    },
+    {
+      "href": "images/gallery/chandeliers/48.jpg",
+      "src": "images/gallery/chandeliers/48_th.jpg",
+      "alt": "thumb",
+      "number": 48 
     }
   ],
   "chests_1": [
@@ -1708,6 +1726,14 @@
       "src": "images/gallery/chests/14_th.jpg",
       "alt": "thumb",
       "number": 14
+    }
+  ],
+  "chests_3": [
+    {
+      "href": "images/gallery/chests/15.jpg",
+      "src": "images/gallery/chests/15_th.jpg",
+      "alt": "thumb",
+      "number": 15
     }
   ],
   "commodes_1": [
@@ -1898,6 +1924,12 @@
       "src": "images/gallery/commodes/30_th.jpg",
       "alt": "thumb",
       "number": 30
+    },
+    {
+      "href": "images/gallery/commodes/31.jpg",
+      "src": "images/gallery/commodes/31_th.jpg",
+      "alt": "thumb",
+      "number": 31
     }
   ],
   "doors_1": [
@@ -2276,6 +2308,12 @@
       "src": "images/gallery/garden/34_th.jpg",
       "alt": "thumb",
       "number": 34
+    },
+    {
+      "href": "images/gallery/garden/35.jpg",
+      "src": "images/gallery/garden/35_th.jpg",
+      "alt": "thumb",
+      "number": 35
     }
   ],
   "interior_1": [
@@ -2422,6 +2460,12 @@
       "src": "images/gallery/interior/23_th.jpg",
       "alt": "thumb",
       "number": 23
+    },
+    {
+      "href": "images/gallery/interior/24.jpg",
+      "src": "images/gallery/interior/24_th.jpg",
+      "alt": "thumb",
+      "number": 24
     }
   ],
   "kitchens_1": [
@@ -2767,6 +2811,12 @@
       "src": "images/gallery/kitchens/55_th.jpg",
       "alt": "thumb",
       "number": 55
+    },
+    {
+      "href": "images/gallery/kitchens/56.jpg",
+      "src": "images/gallery/kitchens/56_th.jpg",
+      "alt": "thumb",
+      "number": 56
     }
   ],
   "lockers_1": [
@@ -3164,6 +3214,12 @@
       "src": "images/gallery/restaurants/51_th.jpg",
       "alt": "thumb",
       "number": 51
+    },
+    {
+      "href": "images/gallery/restaurants/52.jpg",
+      "src": "images/gallery/restaurants/52_th.jpg",
+      "alt": "thumb",
+      "number": 55
     }
   ],
   "sofas_1": [
@@ -3334,6 +3390,12 @@
       "src": "images/gallery/sofas/27_th.jpg",
       "alt": "thumb",
       "number": 27
+    },
+    {
+      "href": "images/gallery/sofas/28.jpg",
+      "src": "images/gallery/sofas/28_th.jpg",
+      "alt": "thumb",
+      "number": 28
     }
   ],
   "tables_1": [
@@ -3679,9 +3741,15 @@
       "src": "images/gallery/tables/55_th.jpg",
       "alt": "thumb",
       "number": 55
+    },
+    {
+      "href": "images/gallery/tables/56.jpg",
+      "src": "images/gallery/tables/56_th.jpg",
+      "alt": "thumb",
+      "number": 56
     }
   ],
-  "portfolio_1": [
+  "portfolio_cottage_1": [
     {
       "href": "images/portfolio/cottage/1.jpg",
       "src": "images/portfolio/cottage/1_th.jpg",
@@ -3713,7 +3781,7 @@
       "alt": "thumb"
     }
   ],
-  "portfolio_2": [
+  "portfolio_cottage_2": [
     {
       "href": "images/portfolio/cottage/7.jpg",
       "src": "images/portfolio/cottage/7_th.jpg",
@@ -3745,7 +3813,7 @@
       "alt": "thumb"
     }
   ],
-  "portfolio_3": [
+  "portfolio_cottage_3": [
     {
       "href": "images/portfolio/cottage/13.jpg",
       "src": "images/portfolio/cottage/13_th.jpg",
@@ -3777,7 +3845,7 @@
       "alt": "thumb"
     }
   ],
-  "portfolio_4": [
+  "portfolio_cottage_4": [
     {
       "href": "images/portfolio/cottage/19.jpg",
       "src": "images/portfolio/cottage/19_th.jpg",
@@ -3809,7 +3877,7 @@
       "alt": "thumb"
     }
   ],
-  "portfolio_5": [
+  "portfolio_cottage_5": [
     {
       "href": "images/portfolio/cottage/25.jpg",
       "src": "images/portfolio/cottage/25_th.jpg",
@@ -3841,7 +3909,7 @@
       "alt": "thumb"
     }
   ],
-  "portfolio_6": [
+  "portfolio_cottage_6": [
     {
       "href": "images/portfolio/cottage/31.jpg",
       "src": "images/portfolio/cottage/31_th.jpg",
@@ -3873,7 +3941,7 @@
       "alt": "thumb"
     }
   ],
-  "portfolio_7": [
+  "portfolio_cottage_7": [
     {
       "href": "images/portfolio/cottage/37.jpg",
       "src": "images/portfolio/cottage/37_th.jpg",
@@ -3905,7 +3973,7 @@
       "alt": "thumb"
     }
   ],
-  "portfolio_8": [
+  "portfolio_cottage_8": [
     {
       "href": "images/portfolio/cottage/43.jpg",
       "src": "images/portfolio/cottage/43_th.jpg",
@@ -3927,7 +3995,7 @@
       "alt": "thumb"
     }
   ],
-  "roev_1": [
+  "portfolio_roev_1": [
     {
       "href": "images/portfolio/roev/1.jpg",
       "src": "images/portfolio/roev/1_th.jpg",
@@ -3956,6 +4024,94 @@
     {
       "href": "images/portfolio/roev/6.jpg",
       "src": "images/portfolio/roev/6_th.jpg",
+      "alt": "thumb"
+    }
+  ],
+  "portfolio_roev_2": [
+    {
+      "href": "images/portfolio/roev/7.jpg",
+      "src": "images/portfolio/roev/7_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/8.jpg",
+      "src": "images/portfolio/roev/8_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/9.jpg",
+      "src": "images/portfolio/roev/9_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/10.jpg",
+      "src": "images/portfolio/roev/10_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/11.jpg",
+      "src": "images/portfolio/roev/11_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/12.jpg",
+      "src": "images/portfolio/roev/12_th.jpg",
+      "alt": "thumb"
+    }
+  ],
+  "portfolio_roev_3": [
+    {
+      "href": "images/portfolio/roev/13.jpg",
+      "src": "images/portfolio/roev/13_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/14.jpg",
+      "src": "images/portfolio/roev/14_th.jpg",
+      "alt": "thumb"
+    }
+  ],
+  "portfolio_tatyshev_1": [
+    {
+      "href": "images/portfolio/tatyshev/1.jpg",
+      "src": "images/portfolio/tatyshev/1_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/tatyshev/2.jpg",
+      "src": "images/portfolio/tatyshev/2_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/tatyshev/3.jpg",
+      "src": "images/portfolio/tatyshev/3_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/tatyshev/4.jpg",
+      "src": "images/portfolio/tatyshev/4_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/tatyshev/5.jpg",
+      "src": "images/portfolio/tatyshev/5_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/tatyshev/6.jpg",
+      "src": "images/portfolio/tatyshev/6_th.jpg",
+      "alt": "thumb"
+    }
+  ],
+  "portfolio_tatyshev_2": [
+    {
+      "href": "images/portfolio/tatyshev/7.jpg",
+      "src": "images/portfolio/tatyshev/7_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/tatyshev/8.jpg",
+      "src": "images/portfolio/tatyshev/8_th.jpg",
       "alt": "thumb"
     }
   ]

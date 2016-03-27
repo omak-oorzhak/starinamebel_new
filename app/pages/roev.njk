@@ -12,7 +12,29 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <div class="portfolio">
-                            {% for item in roev_1 %}
+                            {% for item in portfolio_roev_1 %}
+                                <div class="portfolio-item">
+                                    <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="portfolio">
+                            {% for item in portfolio_roev_2 %}
+                                <div class="portfolio-item">
+                                    <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="portfolio">
+                            {% for item in portfolio_roev_3 %}
                                 <div class="portfolio-item">
                                     <a href="{{ item.href }}" data-rel="lightcase:myCollection"><img src="{{ item.src }}" alt="{{ item.alt }}"></a>
                                 </div>

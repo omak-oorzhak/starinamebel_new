@@ -32,6 +32,18 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="images">
+                        {% for thumb in chests_3 %}
+                            <div class="thumb">
+                                <a href="{{ thumb.href }}" data-rel="lightcase:myCollection"><img src="{{ thumb.src }}" alt="{{ thumb.alt }}"></a>
+                                <span class="thumb-caption">{{ thumb.number }}</span>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
         </div>
         <img class="bottom-shadow img-responsive" src="images/top_shadow.png" alt="shadow">
     </section>
