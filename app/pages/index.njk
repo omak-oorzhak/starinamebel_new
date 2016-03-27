@@ -166,15 +166,16 @@
                     <div class="col-lg-12">
                         <h2 class="feedback-title">связаться с нами</h2>
                         <div class="form-wrap">
-                            <form method="post" action="" id="ajaxform">
+                            <form method="post" action="index.php" id="ajaxform" enctype="multipart/form-data">
                                 <label for="name">ваше имя <span>(обязательно)</span> :</label><br>
-                                <input type="text" class="form-field" id="name" name="name" value=""><span class="alert-empty"></span><br>
+                                <input type="text" class="form-field" id="name" name="name" value="" required><span class="alert-empty"></span><br>
                                 <label for="email">ваш e-mail <span>(обязательно)</span> :</label><br>
-                                <input type="text" class="form-field" id="email" name="email" value=""><span class="alert-empty"></span><br>
+                                <input type="email" class="form-field" id="email" name="email" value="" required><span class="alert-empty"></span><br>
                                 <label for="phone">ваш телефон <span>(обязательно)</span> :</label><br>
-                                <input type="text" class="form-field" id="phone" name="phone" value=""><span class="alert-empty"></span><br>
+                                <input type="tel" class="form-field" id="phone" name="phone" value="" required><span class="alert-empty"></span><br>
                                 <label for="textarea">сообщение:</label><br>
-                                <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+                                <textarea name="message" id="textarea"></textarea>
+                                <input name="attachfile" type="file" value="прикрепить файл">
                                 <input type="submit" id="submit" name="submit" value="отправить">
                             </form>
                         </div>
