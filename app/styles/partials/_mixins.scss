@@ -1,3 +1,7 @@
+@mixin hidden() {
+  display: none !important;
+  visibility: hidden;
+}
 @mixin no-indent() {
   margin: 0;
   padding: 0;
@@ -60,11 +64,11 @@
   }
 }
 @mixin titles($fontSize) {
-  text-align: center;
   font-family: 'CyrillicOld', sans-serif;
   color: #5e361f;
   font-weight: bold;
   font-size: $fontSize;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  //text-align: center;
+  //margin-bottom: 2rem;
 }

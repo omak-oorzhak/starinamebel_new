@@ -86,11 +86,10 @@ $icon-font-path: '../fonts/';
   height: 2400px; //3460px; 2500
   .top-shadow {
     width: 90%;
-    position: absolute;
+    /*position: absolute;
     top: -1px;
-    z-index: 1;
-    margin: 0 auto;
-    text-align: center;
+    z-index: 1;*/
+    margin: -3.8rem auto 0;
   }
   //ВЫГОДЫ-1
   .benefits-1 {
@@ -136,7 +135,11 @@ $icon-font-path: '../fonts/';
     //background: url("../images/wooden_plank.png") no-repeat center;
     //ЗАГОЛОВОК
     .scheme-title {
-      @include titles(4.5rem);
+      text-align: center;
+      margin-bottom: 1rem;
+      span {
+        @include titles(4.5rem);
+      }
     }
     .scheme {
       position: relative;
@@ -256,7 +259,11 @@ $icon-font-path: '../fonts/';
     margin-bottom: 3rem;
     //outline: 1px dashed darkblue;
     .faq-title {
-      @include titles(4.5rem);
+      text-align: center;
+      margin-bottom: 1rem;
+      span {
+        @include titles(4.5rem);
+      }
     }
     .faq-box {
       position: absolute;
@@ -303,7 +310,11 @@ $icon-font-path: '../fonts/';
   .feedback {
     position: relative;
     &-title {
-      @include titles(4.5rem);
+      text-align: center;
+      margin-bottom: 1rem;
+      span {
+        @include titles(4.5rem);
+      }
     }
     .form-wrap {
       position: absolute;
@@ -391,6 +402,13 @@ $icon-font-path: '../fonts/';
         text-shadow: 0 1px 0 #000;
       }
     }
+  }
+  .footer-shadow {
+    width: 90%;
+    background: transparent;
+    position: absolute;
+    bottom: -0.5rem;
+    margin-left: 9%;
   }
 }
 .wood {
@@ -695,3 +713,4 @@ $icon-font-path: '../fonts/';
 @import "partials/media/box";
 @import "partials/media/benefits";
 @import "partials/media/scheme";
+@import "partials/media/main";
