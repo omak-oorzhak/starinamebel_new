@@ -355,3 +355,18 @@
     }
   }
 }
+@media only screen and (max-width: 768px) {
+  .main {
+    .benefits-2 {
+      .benefits-img {
+        display: inline-block !important;
+        visibility: visible;
+        width: 100%;
+        height: auto;
+      }
+      .benefit-2 {
+        @include hidden();
+      }
+    }
+  }
+}

@@ -4069,6 +4069,11 @@
       "href": "images/portfolio/roev/14.jpg",
       "src": "images/portfolio/roev/14_th.jpg",
       "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/roev/15.jpg",
+      "src": "images/portfolio/roev/15_th.jpg",
+      "alt": "thumb"
     }
   ],
   "portfolio_tatyshev_1": [
@@ -4112,6 +4117,33 @@
     {
       "href": "images/portfolio/tatyshev/8.jpg",
       "src": "images/portfolio/tatyshev/8_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/tatyshev/9.jpg",
+      "src": "images/portfolio/tatyshev/9_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/tatyshev/10.jpg",
+      "src": "images/portfolio/tatyshev/10_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/tatyshev/11.jpg",
+      "src": "images/portfolio/tatyshev/11_th.jpg",
+      "alt": "thumb"
+    },
+    {
+      "href": "images/portfolio/tatyshev/12.jpg",
+      "src": "images/portfolio/tatyshev/12_th.jpg",
+      "alt": "thumb"
+    }
+  ],
+  "portfolio_tatyshev_3": [
+  {
+      "href": "images/portfolio/tatyshev/13.jpg",
+      "src": "images/portfolio/tatyshev/13_th.jpg",
       "alt": "thumb"
     }
   ]

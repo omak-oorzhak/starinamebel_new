@@ -225,14 +225,6 @@ $icon-font-path: '../fonts/';
       height: 10.8rem;
       margin-right: 4.1rem;
       img { float: right; }
-      p {
-        width: 100%;
-        position: absolute;
-        bottom: .8rem;
-        @include Sunday();
-        font-size: 2.3rem;
-        color: #6a6561;
-      }
       .word-1 {
         position: absolute;
         @include Sunday();
@@ -244,8 +236,16 @@ $icon-font-path: '../fonts/';
       &:nth-child(2) { .word-1 { margin-left: 0; } }
       &:nth-child(3) { .word-1 { margin-left: 7rem; } }
       &:last-child {
-        margin-right: 0;
         .word-1 { margin-left: 8.4rem; }
+        margin-right: 0;
+      }
+      p {
+        width: 100%;
+        position: absolute;
+        bottom: .8rem;
+        @include Sunday();
+        font-size: 2.3rem;
+        color: #6a6561;
       }
       &:hover {
         @include transformScale(1.2);

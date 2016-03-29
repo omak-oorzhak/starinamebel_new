@@ -44,7 +44,7 @@
   .main {
     .top-shadow {
       width: 90%;
-      margin: -4.5rem auto 0;
+      margin: -1.1rem 0 0 8%;
     }
     //FAQ
     .faq-wrap {
@@ -70,6 +70,45 @@
         }
         a {
           font-size: 2rem;
+          &:hover { text-decoration: underline; }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    .top-shadow {
+      width: 90%;
+      margin: -1.2rem 0 0 8%;
+    }
+    .faq-wrap {
+      position: relative;
+      margin-bottom: 1rem;
+      .faq-title { span { @include titles(2.5rem); } }
+      .faq-box {
+        //height: auto;
+        max-height: 420px;
+        outline: 1px dotted green;
+        overflow: hidden;
+        top: 5.5rem;
+        left: 13%;
+        padding: 1.6rem 1.4rem;
+      }
+      .faq-text {
+        h3 {
+          font-size: 1.8rem;
+          margin-bottom: 1rem;
+        }
+        .faq-q-3, .faq-a-3 { @include hidden(); }
+        p {
+          margin-bottom: 1rem;
+          font-size: 1.6rem;
+          line-height: 2rem;
+          &.faq-a-2 { margin-bottom: 0.5rem; }
+        }
+        a {
+          font-size: 1.8rem;
           &:hover { text-decoration: underline; }
         }
       }
