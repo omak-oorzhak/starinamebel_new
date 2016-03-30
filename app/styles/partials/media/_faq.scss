@@ -1,0 +1,341 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main {
+    .top-shadow {
+      width: 90%;
+      margin: -4.5rem auto 0;
+    }
+    //FAQ
+    .faq-wrap {
+      position: relative;
+      margin-bottom: 3rem;
+      .faq-title {
+        text-align: center;
+        margin-bottom: 1rem;
+        span {
+          @include titles(4rem);
+        }
+      }
+      .faq-box {
+        top: 8rem;
+        left: 13%;
+        padding: 1.8rem 2rem 1rem;
+      }
+      .faq-text {
+        h3 {
+          font-size: 2.2rem;
+          margin-bottom: 1rem;
+        }
+        p {
+          margin-bottom: 1rem;
+          font-size: 1.8rem;
+          line-height: 2.3rem;
+        }
+        a {
+          font-size: 2.2rem;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main {
+    .top-shadow {
+      width: 90%;
+      margin: -1.1rem 0 0 8%;
+    }
+    //FAQ
+    .faq-wrap {
+      position: relative;
+      margin-bottom: 1rem;
+      .faq-title { span { @include titles(2.5rem); } }
+      .faq-box {
+        top: 5.5rem;
+        left: 13%;
+        padding: 1.6rem 1.4rem;
+      }
+      .faq-text {
+        h3 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+        .faq-q-3, .faq-a-3 { @include hidden(); }
+        p {
+          margin-bottom: 1rem;
+          font-size: 1.8rem;
+          line-height: 2.2rem;
+          &.faq-a-2 { margin-bottom: 0; }
+        }
+        a {
+          font-size: 2rem;
+          &:hover { text-decoration: underline; }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 730px) and (max-width: 767px) {
+  .main {
+    .top-shadow {
+      width: 90%;
+      margin: -1.2rem 0 0 8%;
+    }
+    .faq-wrap {
+      position: relative;
+      margin-bottom: 1rem;
+      .faq-title { span { @include titles(2.5rem); } }
+      .faq-box {
+        top: 6.5rem;
+        left: 13%;
+        height: auto;
+        //max-height: 420px;
+        overflow: hidden;
+        padding: 1.6rem 1.4rem;
+      }
+      .faq-text {
+        h3 {
+          font-size: 1.8rem;
+          margin-bottom: 1rem;
+        }
+        .faq-q-3, .faq-a-3 { @include hidden(); }
+        p {
+          margin-bottom: 1rem;
+          font-size: 1.6rem;
+          line-height: 2rem;
+          &.faq-a-2 { margin-bottom: .7rem; }
+        }
+        a {
+          font-size: 1.8rem;
+          &:hover { text-decoration: underline; }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 729px) {
+  .main {
+    .top-shadow {
+      width: 90%;
+      margin: -1.2rem 0 0 8%;
+    }
+    .faq-wrap {
+      position: relative;
+      margin-bottom: 1rem;
+      .faq-title { span { @include titles(2.5rem); } }
+      .faq-box {
+        top: 370%;
+        left: 13%;
+        height: auto;
+        //max-height: 420px;
+        overflow: hidden;
+        padding: 1.6rem 1.4rem;
+      }
+      .faq-text {
+        h3 {
+          font-size: 1.8rem;
+          margin-bottom: 1rem;
+        }
+        .faq-q-3, .faq-a-3 { @include hidden(); }
+        p {
+          margin-bottom: 1rem;
+          font-size: 1.6rem;
+          line-height: 2rem;
+          &.faq-a-2 {
+            margin-bottom: .7rem;
+            .hide729 {
+              @include hidden();
+            }
+          }
+        }
+        a {
+          font-size: 1.8rem;
+          &:hover { text-decoration: underline; }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 660px) and (max-width: 699px) {
+  .main {
+    .top-shadow {
+      width: 90%;
+      margin: -1.2rem 0 0 8%;
+    }
+    .faq-wrap {
+      position: relative;
+      margin-bottom: 1rem;
+      vertical-align: middle;
+      .faq-title { span { @include titles(2.5rem); } }
+      .faq-box {
+        top: 330%;
+        left: 13%;
+        height: auto;
+        //max-height: 420px;
+        overflow: hidden;
+        padding: 1.6rem 1.4rem;
+      }
+      .faq-text {
+        h3 {
+          font-size: 1.8rem;
+          margin-bottom: .8rem;
+        }
+        .faq-q-3, .faq-a-3 { @include hidden(); }
+        p {
+          margin-bottom: 1rem;
+          font-size: 1.6rem;
+          line-height: 2rem;
+          &.faq-a-2 {
+            margin-bottom: .7rem;
+            .hide729 {
+              @include hidden();
+            }
+          }
+        }
+        a {
+          font-size: 1.8rem;
+          &:hover { text-decoration: underline; }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 659px) {
+  .main {
+    .top-shadow {
+      width: 90%;
+      margin: -1.2rem 0 0 8%;
+    }
+    .faq-wrap {
+      position: relative;
+      margin-bottom: 1rem;
+      vertical-align: middle;
+      .faq-title { span { @include titles(2.5rem); } }
+      .faq-box {
+        top: 290%;
+        left: 13%;
+        height: auto;
+        //max-height: 420px;
+        overflow: hidden;
+        padding: 1.6rem 1.4rem;
+      }
+      .faq-text {
+        h3 {
+          font-size: 1.7rem;
+          margin-bottom: .6rem;
+        }
+        .faq-q-3, .faq-a-3 { @include hidden(); }
+        p {
+          margin-bottom: .8rem;
+          font-size: 1.5rem;
+          line-height: 2rem;
+          &.faq-a-2 {
+            margin-bottom: .7rem;
+            .hide729 {
+              @include hidden();
+            }
+          }
+        }
+        a {
+          font-size: 1.6rem;
+          &:hover { text-decoration: underline; }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+  .main {
+    .top-shadow {
+      width: 90%;
+      margin: -1.2rem 0 0 8%;
+    }
+    .faq-wrap {
+      position: relative;
+      margin-bottom: 1rem;
+      vertical-align: middle;
+      .faq-title { span { @include titles(2.2rem); } }
+      .faq-box {
+        top: 295%;
+        left: 13%;
+        height: auto;
+        //max-height: 420px;
+        overflow: hidden;
+        padding: 1.5rem 1.2rem .8rem;
+      }
+      .faq-text {
+        h3 {
+          font-size: 1.7rem;
+          margin-bottom: .9rem;
+        }
+        .faq-q-3, .faq-a-3 { @include hidden(); }
+        p {
+          margin-bottom: .8rem;
+          font-size: 1.5rem;
+          line-height: 2rem;
+          &.faq-a-2 {
+            margin-bottom: .7rem;
+            .hide729, .hide599 {
+              @include hidden();
+            }
+          }
+        }
+        a {
+          font-size: 1.6rem;
+          padding: 1rem;
+          background-color: rgba(196, 196, 196, 0.5);
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 445px) and (max-width: 480px) {
+  .main {
+    .top-shadow {
+      width: 90%;
+      margin: -1.2rem 0 0 8%;
+    }
+    .faq-wrap {
+      position: relative;
+      margin-bottom: 1rem;
+      vertical-align: middle;
+      .faq-title { span { @include titles(2rem); } }
+      .faq-box {
+        top: 280%;
+        left: 13%;
+        height: auto;
+        //max-height: 420px;
+        overflow: hidden;
+        padding: 1.5rem 1.2rem .8rem;
+      }
+      .faq-text {
+        h3 {
+          font-size: 1.7rem;
+          margin-bottom: .7rem;
+        }
+        .faq-q-2, .faq-a-2, .faq-q-3, .faq-a-3 { @include hidden(); }
+        p {
+          margin-bottom: .6rem;
+          font-size: 1.5rem;
+          line-height: 1.8rem;
+        }
+        a {
+          font-size: 1.6rem;
+          text-align: center;
+          padding: 1rem;
+          background-color: rgba(196, 196, 196, 0.5);
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 444px) {
+  .main {
+    .faq-wrap {
+      @include hidden();
+    }
+  }
+}
