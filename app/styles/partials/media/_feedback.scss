@@ -33,7 +33,7 @@
         }
         input[type="text"], input[type="email"], input[type="tel"] {
           width: 350px;
-          height: 2rem;
+          height: 2.3rem;
           margin: .5rem 0;
           padding-left: 1.5rem;
           border: 1px solid rgba(0,0,0,.06);
@@ -53,6 +53,13 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .main {
     .feedback {
+      .wood {
+        @include hidden();
+      }
+      .wood-big {
+        display: inline-block !important;
+        visibility: visible !important;
+      }
       &-title {
         text-align: center;
         margin-bottom: 1rem;
@@ -61,19 +68,34 @@
         }
       }
       .form-wrap {
-        top: 5.7rem;
+        top: 15%;
         label {
           font-family: 'Sunday', 'CyrillicOld', sans-serif;
-          font-size: 1.3rem;
+          font-size: 1.4rem;
           letter-spacing: .1rem;
           color: #fff;
           span {
             color: red;
           }
         }
+        input[type="submit"] {
+          right: 0;
+          height: auto;
+          padding: .5em;
+          @include box-shadow(0 1px 0 #212121);
+          border-radius: 5px;
+          background-image: -webkit-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -moz-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -o-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -ms-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          font-family: 'Sunday', 'CyrillicOld', sans-serif;
+          font-size: 1.4rem;
+          color: #fff;
+        }
         input[type="text"], input[type="email"], input[type="tel"] {
-          width: 350px;
-          height: 2rem;
+          width: 65%;
+          height: 2.3rem;
           margin: .5rem 0;
           padding-left: 1.5rem;
           border: 1px solid rgba(0,0,0,.06);
@@ -84,7 +106,9 @@
           font-size: 1.8rem;
         }
         textarea {
-          height: 65px;
+          width: 90%;
+          height: 45px;
+          overflow: hidden;
         }
       }
     }

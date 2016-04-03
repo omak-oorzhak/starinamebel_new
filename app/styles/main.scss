@@ -345,8 +345,8 @@ $icon-font-path: '../fonts/';
         font-size: 2rem;
       }
       input[type="submit"] {
-        position: relative;
-        left: 50%;
+        position: absolute;
+        right: 0;
         width: 122px;
         height: 33px;
         @include box-shadow(0 1px 0 #212121);
@@ -412,7 +412,7 @@ $icon-font-path: '../fonts/';
     margin-left: 9%;
   }
 }
-.wood {
+.wood, .wood-big {
   display: inline-block;
   width: 100%;
   height: auto;
@@ -429,7 +429,6 @@ $icon-font-path: '../fonts/';
   @include gradient();
   padding: 20px 0;
   &-box {
-    //outline: 1px dashed green;
     margin-bottom: 2rem;
   }
   //top: 170px;
