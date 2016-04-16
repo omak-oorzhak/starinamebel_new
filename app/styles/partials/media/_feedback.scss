@@ -50,12 +50,10 @@
     }
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 700px) and (max-width: 767px) {
   .main {
     .feedback {
-      .wood {
-        @include hidden();
-      }
+      .wood { @include hidden(); }
       .wood-big {
         display: inline-block !important;
         visibility: visible !important;
@@ -63,12 +61,59 @@
       &-title {
         text-align: center;
         margin-bottom: 1rem;
-        span {
-          @include titles(2.5rem);
-        }
+        span { @include titles(2.5rem); }
       }
       .form-wrap {
-        top: 15%;
+        top: 17%;
+        label {
+          font-family: 'Sunday', 'CyrillicOld', sans-serif;
+          font-size: 1.4rem;
+          letter-spacing: .1rem;
+          color: #fff;
+          span {
+            color: red;
+          }
+        }
+        input[type="submit"] {
+          padding: .5em;
+          font-size: 1.4rem;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+          width: 65%;
+          height: 3rem;
+          margin: .7rem 0;
+          padding-left: 1.5rem;
+          border: 1px solid rgba(0,0,0,.06);
+          background-color: transparentize(#a87c54, .65);
+          border-radius: 5px;
+          @include box-shadow(0 0 27px rgba(82,76,73,.38), inset 5px 2px 10px rgba(0,0,0,.73));
+          font-family: 'Times New Roman',  sans-serif;
+          font-size: 1.8rem;
+        }
+        textarea {
+          width: 100%;
+          height: 100px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 699px) { //min 480
+  .main {
+    .feedback {
+      .wood { @include hidden(); }
+      .wood-big {
+        display: inline-block !important;
+        visibility: visible !important;
+      }
+      &-title {
+        text-align: center;
+        margin-bottom: 1rem;
+        span { @include titles(2.5rem); }
+      }
+      .form-wrap {
+        top: 13%;
         label {
           font-family: 'Sunday', 'CyrillicOld', sans-serif;
           font-size: 1.4rem;
@@ -95,7 +140,7 @@
         }
         input[type="text"], input[type="email"], input[type="tel"] {
           width: 65%;
-          height: 2.3rem;
+          height: 3rem; //2.3
           margin: .5rem 0;
           padding-left: 1.5rem;
           border: 1px solid rgba(0,0,0,.06);
@@ -106,8 +151,184 @@
           font-size: 1.8rem;
         }
         textarea {
-          width: 90%;
-          height: 45px;
+          width: 100%;
+          height: 90px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 530px) and (max-width: 599px) {
+  .main {
+    .feedback {
+      .wood { @include hidden(); }
+      .wood-big {
+        display: inline-block !important;
+        visibility: visible !important;
+      }
+      &-title {
+        text-align: center;
+        margin-bottom: 1rem;
+        span { @include titles(2.5rem); }
+      }
+      .form-wrap {
+        top: 17%;
+        label {
+          font-family: 'Sunday', 'CyrillicOld', sans-serif;
+          font-size: 1.2rem;
+          letter-spacing: .1rem;
+          color: #fff;
+          span { color: red; }
+        }
+        input[type="submit"] {
+          right: 0;
+          width: 100px;
+          height: auto;
+          padding: .3em;
+          @include box-shadow(0 1px 0 #212121);
+          border-radius: 5px;
+          background-image: -webkit-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -moz-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -o-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -ms-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          font-family: 'Sunday', 'CyrillicOld', sans-serif;
+          font-size: 1.2rem;
+          color: #fff;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+          width: 65%;
+          height: 2.7rem; //2.3
+          margin: .5rem 0;
+          padding-left: 1.5rem;
+          border: 1px solid rgba(0,0,0,.06);
+          background-color: transparentize(#a87c54, .65);
+          border-radius: 5px;
+          @include box-shadow(0 0 27px rgba(82,76,73,.38), inset 5px 2px 10px rgba(0,0,0,.73));
+          font-family: 'Times New Roman',  sans-serif;
+          font-size: 1.8rem;
+        }
+        textarea {
+          width: 100%;
+          height: 65px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 529px) {
+  .main {
+    .feedback {
+      .wood { @include hidden(); }
+      .wood-big {
+        display: inline-block !important;
+        visibility: visible !important;
+      }
+      &-title {
+        text-align: center;
+        margin-bottom: 1rem;
+        span { @include titles(2.2rem); }
+      }
+      .form-wrap {
+        top: 15%;
+        label {
+          font-family: 'Sunday', 'CyrillicOld', sans-serif;
+          font-size: 1.2rem;
+          letter-spacing: .1rem;
+          color: #fff;
+          span { color: red; }
+        }
+        input[type="submit"] {
+          right: 0;
+          width: 100px;
+          height: auto;
+          padding: .3em;
+          @include box-shadow(0 1px 0 #212121);
+          border-radius: 5px;
+          background-image: -webkit-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -moz-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -o-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -ms-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          font-family: 'Sunday', 'CyrillicOld', sans-serif;
+          font-size: 1.2rem;
+          color: #fff;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+          width: 65%;
+          height: 2.5rem; //2.3
+          margin: .5rem 0;
+          padding-left: 1.5rem;
+          border: 1px solid rgba(0,0,0,.06);
+          background-color: transparentize(#a87c54, .65);
+          border-radius: 5px;
+          @include box-shadow(0 0 27px rgba(82,76,73,.38), inset 5px 2px 10px rgba(0,0,0,.73));
+          font-family: 'Times New Roman',  sans-serif;
+          font-size: 1.8rem;
+        }
+        textarea {
+          width: 100%;
+          height: 55px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .main {
+    .feedback {
+      .wood, .wood-big { @include hidden(); }
+      .wood-big-xs { display: inline-block !important; visibility: visible !important; }
+      &-title {
+        text-align: center;
+        margin: 1rem 0 .5rem;
+        span { @include titles(1.6rem); }
+      }
+      .form-wrap {
+        top: 13%;
+        left: 10%;
+        label {
+          font-size: 1rem;
+          letter-spacing: .1rem;
+          color: #fff;
+          span { color: red; }
+        }
+        input[type="submit"] {
+          left: 50%;
+          width: 100px;
+          margin-left: -50px;
+          height: auto;
+          padding: .3em;
+          @include box-shadow(0 1px 0 #212121);
+          border-radius: 5px;
+          background-image: -webkit-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -moz-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -o-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: -ms-linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          background-image: linear-gradient(bottom, #787879 -25%, #acadae 125%);
+          font-family: 'Sunday', 'CyrillicOld', sans-serif;
+          font-size: 1.2rem;
+          color: #fff;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+          width: 100%;
+          height: 2rem; //2.3
+          margin: .2rem 0;
+          padding-left: 1.5rem;
+          border: 1px solid rgba(0,0,0,.06);
+          background-color: transparentize(#a87c54, .65);
+          border-radius: 5px;
+          @include box-shadow(0 0 27px rgba(82,76,73,.38), inset 5px 2px 10px rgba(0,0,0,.73));
+          font-family: 'Times New Roman',  sans-serif;
+          font-size: 1.8rem;
+        }
+        input[type="file"] { @include hidden(); }
+        textarea {
+          width: 100%;
+          height: 36px;
           overflow: hidden;
         }
       }

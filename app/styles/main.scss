@@ -313,9 +313,7 @@ $icon-font-path: '../fonts/';
     &-title {
       text-align: center;
       margin-bottom: 1rem;
-      span {
-        @include titles(4.5rem);
-      }
+      span { @include titles(4.5rem); }
     }
     .form-wrap {
       position: absolute;
@@ -328,9 +326,7 @@ $icon-font-path: '../fonts/';
         font-size: 1.5rem;
         letter-spacing: .1rem;
         color: #fff;
-        span {
-          color: red;
-        }
+        span { color: red; }
       }
       input[type="text"], input[type="email"], input[type="tel"] {
         width: 400px;
@@ -412,7 +408,7 @@ $icon-font-path: '../fonts/';
     margin-left: 9%;
   }
 }
-.wood, .wood-big {
+.wood, .wood-big, .wood-big-xs {
   display: inline-block;
   width: 100%;
   height: auto;
