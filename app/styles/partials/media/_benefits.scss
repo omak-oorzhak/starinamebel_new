@@ -332,14 +332,10 @@
           //float: right;
         }
         &:first-child {
-          .word-1 {
-            margin-left: -1.2rem;
-          }
+          .word-1 { margin-left: -1.2rem; }
         }
         &:nth-child(2) {
-          .word-1 {
-            margin-left: -2rem;
-          }
+          .word-1 { margin-left: -2rem; }
         }
         &:nth-child(3) {
           .word-1 {
@@ -347,10 +343,7 @@
             margin-left: 2.2rem;
           }
         }
-        &:last-child {
-          margin-right: 0;
-          .word-1 { margin-left: 3.3rem; }
-        }
+        &:last-child { margin-right: 0; .word-1 { margin-left: 3.3rem; } }
       }
     }
   }
