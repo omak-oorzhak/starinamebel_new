@@ -24,6 +24,9 @@
     }
   }
 }
+@media only screen and (max-width: 768px) {
+  #back-top, .back-top { @include hidden(); }
+}
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .main { .footer-shadow { bottom: -0.5rem; } }
 }
