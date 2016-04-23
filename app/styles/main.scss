@@ -86,10 +86,10 @@ $icon-font-path: '../fonts/';
   height: 2400px; //3460px; 2500
   .top-shadow {
     width: 90%;
+    margin: -3.8rem auto 0;
     /*position: absolute;
     top: -1px;
     z-index: 1;*/
-    margin: -3.8rem auto 0;
   }
   //ВЫГОДЫ-1
   .benefits-1 {
@@ -404,7 +404,7 @@ $icon-font-path: '../fonts/';
     width: 90%;
     background: transparent;
     position: absolute;
-    bottom: -0.5rem;
+    bottom: -0.7rem;
     margin-left: 9%;
   }
 }
