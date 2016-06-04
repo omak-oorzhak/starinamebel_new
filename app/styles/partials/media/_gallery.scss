@@ -1,0 +1,23 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .gallery {
+    .header-shadow, .bottom-shadow {
+      left: 40%;
+      margin-left: -513px;
+    }
+  }
+  .separator { &-img { width: 90%; } }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .gallery {
+    &-item {
+      margin-right: 23px;
+      &:hover {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+      }
+    }
+  }
+}
