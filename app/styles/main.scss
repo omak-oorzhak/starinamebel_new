@@ -482,9 +482,7 @@ $icon-font-path: '../fonts/';
     height: 150px;
     margin-right: 11px;
     text-align: center;
-    &:last-child {
-      margin-right: 0;
-    }
+    &:last-child { margin-right: 0; }
     &-caption {
       @include Sunday();
       text-shadow: none;
