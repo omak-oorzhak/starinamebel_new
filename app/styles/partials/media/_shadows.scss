@@ -1,0 +1,9 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .gallery, .images-wrap {
+    .header-shadow, .bottom-shadow {
+      left: 40%;
+      margin-left: -513px;
+    }
+  }
+  .separator { &-img { width: 90%; } }
+}
