@@ -1,74 +1,76 @@
 {
   "colors": [
     {
+      "title": "палисандр",
       "id": "color-1",
       "src": "images/colors/color_1.jpg",
       "alt": "color-1"
     },
     {
+      "title": "дуб",
       "id": "color-2",
       "src": "images/colors/color_2.jpg",
       "alt": "color-2"
     },
     {
+      "title": "темный дуб",
       "id": "color-3",
       "src": "images/colors/color_3.jpg",
       "alt": "color-3"
     },
     {
+      "title": "дуб мореный",
       "id": "color-4",
       "src": "images/colors/color_4.jpg",
       "alt": "color-4"
     },
     {
+      "title": "эбеновое дерево",
       "id": "color-5",
       "src": "images/colors/color_5.jpg",
       "alt": "color-5"
     },
     {
+      "title": "лиственница",
       "id": "color-6",
       "src": "images/colors/color_6.jpg",
       "alt": "color-6"
     },
     {
+      "title": "орех",
       "id": "color-7",
       "src": "images/colors/color_7.jpg",
       "alt": "color-7"
     },
     {
+      "title": "темный орех",
       "id": "color-8",
       "src": "images/colors/color_8.jpg",
       "alt": "color-8"
     },
     {
+      "title": "орегон",
       "id": "color-9",
       "src": "images/colors/color_9.jpg",
       "alt": "color-9"
     },
     {
+      "title": "темный тик",
       "id": "color-10",
       "src": "images/colors/color_10.jpg",
       "alt": "color-10"
     },
     {
+      "title": "прованс",
       "id": "color-11",
       "src": "images/colors/color_11.jpg",
       "alt": "color-11"
     },
     {
+      "title": "лагуна",
       "id": "color-12",
       "src": "images/colors/color_12.jpg",
       "alt": "color-12"
-    },
-    {
-      "id": "color-13",
-      "src": "images/colors/color_13.jpg",
-      "alt": "color-13"
-    },
-    {
-      "id": "color-14",
-      "src": "images/colors/color_14.jpg",
-      "alt": "color-14"
     }
   ],
   "firstRow": [

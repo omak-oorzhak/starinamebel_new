@@ -444,11 +444,12 @@ $icon-font-path: '../fonts/';
   }
 }
 .colors {
+  width: 97%;
+  margin: 0 auto;
   padding: 1px;
   text-align: center;
   &-title {
     @include Sunday();
-    font-weight: bold;
     margin-top: 0;
     margin-bottom: 18px;
   }
@@ -458,13 +459,13 @@ $icon-font-path: '../fonts/';
       display: inline-block;
       margin-right: 12px;
       margin-bottom: 12px;
-      &:nth-child(7) {
-        margin-right: 0;
-      }
-      &:nth-child(14) {
-        margin-right: 0;
-      }
+      &:nth-child(6) { margin-right: 0; }
+      &:nth-child(12) { margin-right: 0; }
     }
+  }
+  &-color {
+    @include Sunday();
+    margin-bottom: 1rem;
   }
 }
 .images-wrap {
